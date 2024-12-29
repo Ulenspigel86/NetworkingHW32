@@ -6,30 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		61B7AABD2D1AE07B00614D00 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B7AABC2D1AE07B00614D00 /* Book.swift */; };
+		61B7AAC12D1AE72800614D00 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B7AAC02D1AE72800614D00 /* BookCell.swift */; };
+		61CB69BC2D181C150049626B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CB69B22D181C150049626B /* AppDelegate.swift */; };
+		61CB69BD2D181C150049626B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CB69B92D181C150049626B /* SceneDelegate.swift */; };
+		61CB69BE2D181C150049626B /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CB69BA2D181C150049626B /* BooksViewController.swift */; };
+		61CB69BF2D181C150049626B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CB69B32D181C150049626B /* Assets.xcassets */; };
+		61CB69C12D181C150049626B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CB69B62D181C150049626B /* LaunchScreen.storyboard */; };
+		61CB69C22D181C150049626B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CB69B82D181C150049626B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		61B7AABC2D1AE07B00614D00 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		61B7AAC02D1AE72800614D00 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		61CB699A2D181B8A0049626B /* NetworkingHW32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingHW32.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CB69B22D181C150049626B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61CB69B32D181C150049626B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61CB69B42D181C150049626B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CB69B52D181C150049626B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61CB69B72D181C150049626B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61CB69B92D181C150049626B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61CB69BA2D181C150049626B /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		61CB69AC2D181B8C0049626B /* Exceptions for "NetworkingHW32" folder in "NetworkingHW32" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 61CB69992D181B8A0049626B /* NetworkingHW32 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		61CB699C2D181B8A0049626B /* NetworkingHW32 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				61CB69AC2D181B8C0049626B /* Exceptions for "NetworkingHW32" folder in "NetworkingHW32" target */,
-			);
-			path = NetworkingHW32;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		61CB69972D181B8A0049626B /* Frameworks */ = {
@@ -45,7 +44,7 @@
 		61CB69912D181B8A0049626B = {
 			isa = PBXGroup;
 			children = (
-				61CB699C2D181B8A0049626B /* NetworkingHW32 */,
+				61CB69BB2D181C150049626B /* NetworkingHW32 */,
 				61CB699B2D181B8A0049626B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +55,70 @@
 				61CB699A2D181B8A0049626B /* NetworkingHW32.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		61CB69BB2D181C150049626B /* NetworkingHW32 */ = {
+			isa = PBXGroup;
+			children = (
+				61CB69C42D182B8E0049626B /* ViewControllers */,
+				61CB69C52D182BBD0049626B /* Views */,
+				61CB69C62D182BCD0049626B /* Models */,
+				61CB69C72D182BEA0049626B /* Storyboards */,
+				61CB69C82D182C100049626B /* App */,
+				61CB69C92D182C330049626B /* Resources */,
+			);
+			path = NetworkingHW32;
+			sourceTree = "<group>";
+		};
+		61CB69C42D182B8E0049626B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				61CB69BA2D181C150049626B /* BooksViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		61CB69C52D182BBD0049626B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61B7AAC02D1AE72800614D00 /* BookCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		61CB69C62D182BCD0049626B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61B7AABC2D1AE07B00614D00 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		61CB69C72D182BEA0049626B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				61CB69B62D181C150049626B /* LaunchScreen.storyboard */,
+				61CB69B82D181C150049626B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		61CB69C82D182C100049626B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61CB69B22D181C150049626B /* AppDelegate.swift */,
+				61CB69B92D181C150049626B /* SceneDelegate.swift */,
+				61CB69B42D181C150049626B /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		61CB69C92D182C330049626B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61CB69B32D181C150049626B /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +135,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				61CB699C2D181B8A0049626B /* NetworkingHW32 */,
 			);
 			name = NetworkingHW32;
 			packageProductDependencies = (
@@ -122,6 +182,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CB69BF2D181C150049626B /* Assets.xcassets in Resources */,
+				61CB69C12D181C150049626B /* LaunchScreen.storyboard in Resources */,
+				61CB69C22D181C150049626B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +195,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CB69BC2D181C150049626B /* AppDelegate.swift in Sources */,
+				61B7AAC12D1AE72800614D00 /* BookCell.swift in Sources */,
+				61CB69BD2D181C150049626B /* SceneDelegate.swift in Sources */,
+				61B7AABD2D1AE07B00614D00 /* Book.swift in Sources */,
+				61CB69BE2D181C150049626B /* BooksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61CB69B62D181C150049626B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CB69B52D181C150049626B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		61CB69B82D181C150049626B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CB69B72D181C150049626B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		61CB69AE2D181B8C0049626B /* Debug */ = {
@@ -145,13 +232,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YNP6SHCFL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NetworkingHW32/Info.plist;
+				INFOPLIST_FILE = NetworkingHW32/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -159,9 +248,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lenspigel0-rambler.ru.NetworkingHW32";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -172,13 +265,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YNP6SHCFL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NetworkingHW32/Info.plist;
+				INFOPLIST_FILE = NetworkingHW32/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -186,9 +281,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lenspigel0-rambler.ru.NetworkingHW32";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
